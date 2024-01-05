@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="styles.css">
+    <title>The Weather Dashboard</title>
+</head>
+<body>
+    
+    <div class="container">
+        <h1 class="dashboard-heading">The Weather Dashboard</h1>
+        <div class="search-container">
+            <input type="text" id="cityInput" placeholder="Enter city">
+            <button id="searchButton" onclick="searchWeather()">Search</button>
+        </div>
+
+        <div id="weatherInfo"></div>
+        <div id="forecast"></div> 
+        <div id="map"></div>
+    </div>
+    <footer class="footer">
+        Made by Linta Rana
+    </footer>
+
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

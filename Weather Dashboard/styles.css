@@ -1,0 +1,103 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url('bgwd.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-heading {
+    color: #3498db;
+    text-align: center;
+}
+
+.search-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#cityInput {
+    padding: 10px;
+    border: 1px solid #3498db;
+    border-radius: 4px;
+    margin-right: 5px;
+}
+
+#searchButton {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#searchButton:hover {
+    background-color: #2980b9;
+}
+
+#weatherInfo {
+    margin-top: 20px;
+    text-align: center;
+    color: #555;
+}
+
+#forecast {
+    margin-top: 20px;
+    text-align: center;
+    color: #555;
+}
+
+#map {
+    margin-top: 20px;
+    height: 300px;
+}
+
+
+
+.forecast-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.forecast-table th, .forecast-table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.forecast-table th {
+    background-color: #3498db;
+    color: #fff;
+    font-weight: bold;
+}
+
+.forecast-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.forecast-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
